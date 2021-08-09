@@ -60,7 +60,7 @@ function draw() {
     fill('aquamarine');
     textSize(26);
     if (lastFed > 0 || lastFed <= 24) {
-        if (lastFed > 12) {
+        if (lastFed >= 12) {
             text('Last Fed: ' + lastFed % 12 + ' PM', 210, 50);
         }
         else if (lastFed == 0) {
